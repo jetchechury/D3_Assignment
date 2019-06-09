@@ -187,26 +187,6 @@ d3.csv("assets/data/data.csv")//function(error,stateData){
         });
 
 
-
-        // chartGroup.selectAll("text")
-        // .data(stateData)
-        // .enter()
-        // .append("text")
-        // .text(function(data) {
-        //     return data.abbr;
-        // })
-        // // .attr("x", function(d) {
-        // //     return xLinearScale(d.poverty);  // Returns scaled location of x
-        // // })
-        // // .attr("y", function(d) {
-        // //     return yLinearScale(d.smokes);  // Returns scaled circle y
-        // // })
-        // .attr("font_family", "sans-serif")  // Font type
-        // .attr("font-size", "11px")  // Font size
-        // .attr("fill", "white")   // Font color
-        // .attr("text-anchor", "middle");
-
-
   // updateToolTip function above csv import
   var circlesGroup = updateToolTip(chosenXAxis, circlesGroup);      
         
